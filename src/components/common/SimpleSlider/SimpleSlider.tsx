@@ -51,7 +51,8 @@ const SimpleSlider: React.FC<SimpleSliderProps> = ({ cards, showNavigation }) =>
                                 : swiper.isEnd
                                 ? setPositionSlider('end')
                                 : setPositionSlider('')
-                        }>
+                        }
+                    >
                         {cards.items.map((item: cardsProps, index: number) => (
                             <SwiperSlide key={index}>
                                 {showNavigation && <SliderNavigation swiper={swiper} position={positionSlider} />}

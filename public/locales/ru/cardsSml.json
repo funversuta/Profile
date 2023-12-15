@@ -36,13 +36,13 @@
                 "href": "https://www.tektorg.ru/"
             },
             {
-                "title": "Разовые подработки:",
+                "title": "Any some un project stuff",
                 "date": "",
                 "place": "Делал блок спойлеров для проекта на tilda, добавлял формы регистрации, делал блоки связанные со ссылками, уже не вспомню домены",
                 "image": "/images/tilda.PNG"
             },
             {
-                "title": "Не коммерческое задание",
+                "title": "non-commercial",
                 "date": "react+next",
                 "place": "Слайдер, виджет с погодой яндекса, и блок с карточками",
                 "image": "/images/self.PNG",

@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 import { default as NextImage, ImageProps as NextImageProps, StaticImageData } from 'next/image';
-import BasePlaceholder from '/public/images/placeholder.jpeg';
+import BasePlaceholder from '/public/images/placeholder.jpg';
 import { Container } from './Image.styled';
 import { BaseUI } from '@/interfaces';
 
@@ -11,7 +11,8 @@ const defaultOption: NextImageProps = {
     quality: 100,
     lazyBoundary: '500px',
     placeholder: 'blur',
-    blurDataURL: BasePlaceholder.blurDataURL
+    blurDataURL: BasePlaceholder.blurDataURL,
+    alt: ''
 };
 
 const Image: React.FC<ImageProps & BaseUI> = (props) => {
