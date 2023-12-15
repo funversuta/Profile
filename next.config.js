@@ -7,7 +7,7 @@ if (!process.env.IMAGE_DOMAIN) {
 
 module.exports = {
     mode: 'production',
-    output: 'export',
+    
 
     // Конфиг для мультиязычности
     /* i18n, */
