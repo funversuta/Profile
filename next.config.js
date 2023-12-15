@@ -1,18 +1,18 @@
-const { i18n } = require('./next-i18next.config');
+/* const { i18n } = require('./next-i18next.config'); */
 const colors = require('colors');
 
 if (!process.env.IMAGE_DOMAIN) {
-    console.warn(`${colors.yellow('WARN')} - next.config.js содержит пустой список доменов для next/image`)
+    console.warn(`${colors.yellow('WARN')} - next.config.js содержит пустой список доменов для next/image`);
 }
 
 module.exports = {
     mode: 'production',
 
     // Конфиг для мультиязычности
-    i18n,
+    /* i18n, */
 
     react: {
-        useSuspense: true,
+        useSuspense: true
     },
 
     // Конфиг для next/image
@@ -25,7 +25,7 @@ module.exports = {
         config.module.rules.push({
             test: /\.svg$/i,
             issuer: { and: [/\.(js|ts|md)x?$/] },
-            use: ['@svgr/webpack'],
+            use: ['@svgr/webpack']
         });
         return config;
     },
@@ -39,12 +39,12 @@ module.exports = {
 
     async rewrites() {
         return [
-          {
-            source: '/api/:path*',
-            destination: 'http://localhost:8000/:path*' // Proxy to Backend
-          }
-        ]
-      },
+            {
+                source: '/api/:path*',
+                destination: 'http://localhost:8000/:path*' // Proxy to Backend
+            }
+        ];
+    },
 
     // Компилятор для минификации
     swcMinify: true,

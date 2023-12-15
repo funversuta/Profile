@@ -18,7 +18,7 @@ const Card: React.FC<cardsProps> = ({ title, date, place, image, description, hr
         <Container>
             <div>
                 <CopyButton value={href ?? `${title} ${date} ${place}`} />
-                {image && <CardImage src={image} alt="" />}
+                {image && <CardImage src={image} alt="" width={400} height={400} />}
             </div>
 
             <TextCardWrapper>
