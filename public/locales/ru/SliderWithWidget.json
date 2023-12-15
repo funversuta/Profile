@@ -1,0 +1,23 @@
+{
+    "SliderWithWidget": {
+        "title": "Мои проекты и небольшое описание к ним",
+        "slider": {
+            "items": [
+                {
+                    "title": "Коммерческие <br/>и пет проекты",
+                    "description": "",
+                    "date": "на момент 14.12.2023",
+                    "place": "",
+                    "image": "/images/cards/hack.webp"
+                }
+            ]
+        },
+        "theme": {
+            "title": "Переключение темы",
+            "color": {
+                "light": "Светлая",
+                "dark": "Тёмная"
+            }
+        }
+    }
+}
