@@ -16,7 +16,7 @@
         "prepare": "husky install",
         "lint": "next lint",
         "lint:css": "stylelint ./src/**/*.styled.tsx",
-        "format": "prettier --write ./**/*.{ts,tsx} --config ./.prettierrc",
+        "format": "prettier --write ./**/*.{ts,tsx} --config ./.prettierrc"
         
         
     },
