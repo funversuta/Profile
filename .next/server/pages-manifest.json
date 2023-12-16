@@ -1,0 +1,1 @@
+{"/_app":"pages/_app.js","/_document":"pages/_document.js","/api/getWeather":"pages/api/getWeather.js","/api/revalidate":"pages/api/revalidate.js","/_error":"pages/_error.js","/":"pages/index.js","/projects/[id]":"pages/projects/[id].js","/404":"pages/404.html"}
